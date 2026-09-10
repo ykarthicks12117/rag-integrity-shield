@@ -1,0 +1,10 @@
+{
+  "name": "megaton-shield",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix frontend install --include=dev && npm --prefix frontend run build",
+    "install": "npm --prefix frontend install --include=dev",
+    "dev": "npm --prefix frontend run dev"
+  }
+}
