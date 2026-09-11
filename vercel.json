@@ -2,9 +2,6 @@
   "buildCommand": "npm --prefix frontend install --include=dev && npm --prefix frontend run build",
   "outputDirectory": "frontend/dist",
   "framework": "react",
-  "python": {
-    "version": "3.11"
-  },
   "functions": {
     "api/index.py": {
       "runtime": "python3.11"
@@ -51,4 +48,3 @@
     "VITE_API_BASE_URL"
   ]
 }
-
